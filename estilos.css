@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-image: url(img/pink_rice.png);
+}
+
+h1 {
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 120px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 70px;
+  padding-top: 40px;
+  color: rgb(114, 113, 113);
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 28px;
+  color: lightslategray;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 24px;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  padding-top: 20px;
+  text-indent: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+header {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.presentacion {
+  display: flex;
+  max-width: 800px;
+  flex-direction: column;
+  margin: auto;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+article img {
+  height: 100vh;
+}
+
+@media screen and (max-width:700px ) {
+  h1 {
+    font-size: 80px;
+  }
+
+  h2 {
+    font-size: 55px;
+  }
+}
+
+@media screen and (max-width:500px ){
+  article img {
+    width: 95vw;
+    height: auto;
+  }
+}
+
+@media screen and (max-width:440px ){
+  h1{
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
